@@ -3,18 +3,6 @@ import random
 import time
 import datetime
 import smtplib
-#------------------------------------------EMAIL
-
-def email(msg):
-    s = 'bendumanoharnaidu@gmail.com'
-    password = 'Donpowerup1498'
-    r = ['basachandraneil@gmail.com']
-    ss = smtplib.SMTP('smtp.gmail.com',587)
-    ss.ehlo()
-    ss.starttls()
-    ss.login(s,password)
-    ss.sendmail(s, r, msg)
-    ss.close()
 #-----------------------------------------------------------------------------------
 
 root =Tk()
